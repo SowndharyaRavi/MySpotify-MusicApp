@@ -98,7 +98,8 @@ public class Main {
                         printMenu();
                         break;
                     case 5:
-
+                        itr.remove();
+                        System.out.println("Song has been removed from  the playlist");
                         break;
                     case 6:
                         printAllSongs(playList);
